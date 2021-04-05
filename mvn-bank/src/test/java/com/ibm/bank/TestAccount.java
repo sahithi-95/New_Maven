@@ -36,4 +36,9 @@ public class TestAccount {
 		assertThrows(NumberFormatException.class, ()-> a.deposit(-100));
 	}
 	
+	@Test
+	public void testSquare() {
+		assertEquals(25,a.square(5));
+	}
+	
 }

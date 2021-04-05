@@ -26,4 +26,8 @@ public class Account {
 		 balance-=amount;
 		 return balance;
 	 }
+	 public int square(int a)
+	 {
+		 return a*a;
+	 }
 }
